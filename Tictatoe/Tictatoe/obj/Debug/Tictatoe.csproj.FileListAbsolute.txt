@@ -1,0 +1,7 @@
+D:\WorkSpace Unity\ISC_aplicada\ISC_Aplicada_Joel\ISC_Aplica_Joel\Tictatoe\Tictatoe\obj\Debug\Tictatoe.csprojAssemblyReference.cache
+D:\WorkSpace Unity\ISC_aplicada\ISC_Aplicada_Joel\ISC_Aplica_Joel\Tictatoe\Tictatoe\obj\Debug\Tictatoe.csproj.CoreCompileInputs.cache
+D:\WorkSpace Unity\ISC_aplicada\ISC_Aplicada_Joel\ISC_Aplica_Joel\Tictatoe\Tictatoe\bin\Debug\Tictatoe.exe.config
+D:\WorkSpace Unity\ISC_aplicada\ISC_Aplicada_Joel\ISC_Aplica_Joel\Tictatoe\Tictatoe\bin\Debug\Tictatoe.exe
+D:\WorkSpace Unity\ISC_aplicada\ISC_Aplicada_Joel\ISC_Aplica_Joel\Tictatoe\Tictatoe\bin\Debug\Tictatoe.pdb
+D:\WorkSpace Unity\ISC_aplicada\ISC_Aplicada_Joel\ISC_Aplica_Joel\Tictatoe\Tictatoe\obj\Debug\Tictatoe.exe
+D:\WorkSpace Unity\ISC_aplicada\ISC_Aplicada_Joel\ISC_Aplica_Joel\Tictatoe\Tictatoe\obj\Debug\Tictatoe.pdb
