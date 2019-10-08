@@ -4,19 +4,21 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame(Esto es del Pong Player Bihaviour)
-	void Update () {
-        if (i_cpuPlayer || _is)
-        {
-            _deltaPos = new Vector3(0, _movementSpeed = Input.GetAxis(_isPlayerOne ? "player1" : "player2"));
-            transform.Translate_
-        }
-    
-	}
+    public float Velocidad;
+
+    Rigidbody2D rb;
+
+    // Use this for initialization
+    void Start()
+    {
+
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    // Update is called once per frame(Esto es del Pong Player Bihaviour)
+    void Update()
+    {
+        rb.velocity = Vector3.up * Input.GetAxis("Vertical") * Velocidad;
+
+    }
 }
- 
