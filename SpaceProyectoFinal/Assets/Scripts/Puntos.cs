@@ -12,7 +12,7 @@ public class Puntos : MonoBehaviour {
         if (col.CompareTag("Ball")) {
             puntos++;
             ActualizarTexto();
-            col.GetComponent<Ball>().Iniciar(); ;
+            col.GetComponent<Ball>().Start(); ;
             
         }
     
