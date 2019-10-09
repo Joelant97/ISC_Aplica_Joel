@@ -15,7 +15,7 @@ public class Ball : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Iniciar () {
+	public void Iniciar () {
         
         rb.velocity = (Random.value > 0.5f ? 1 : -1) * Vector3.right * VelocidadInicial;
 	}

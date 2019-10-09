@@ -53,7 +53,6 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Ball.cs" />
      <Compile Include="Assets\Scripts\Barras.cs" />
-     <Compile Include="Assets\Scripts\DeadZoneController.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Puntos.cs" />
  <Reference Include="UnityEngine.UI">
