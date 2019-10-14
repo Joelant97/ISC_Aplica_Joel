@@ -20,21 +20,25 @@ public class Ball : MonoBehaviour {
 	void Update () {
         transform.Translate(dir * speed * Time.deltaTime);
 
+        //Laterales Horizontales
         if (transform.position.y < GameManager.bottomLeft.y + radio && dir.y < 0)
         {
             dir.y = -dir.y;
+            //ScoreJugador.instance.GiveJugadorUnoPuntos();
         }
 
         if (transform.position.y > GameManager.topRight.y - radio && dir.y > 0)
         {
             dir.y = -dir.y;
+            //ScoreJugador.instance.GiveJugadorDosPuntos();
         }
 
 
-        //Fin del Juego
+        //Suma de Puntos (DeadZone)
         if (transform.position.x < GameManager.bottomLeft.x + radio && dir.x < 0)
         {
-            Debug.Log("Jugador1 (Der) ha ganado. ");
+    
+            Debug.Log("Jugador1 (Der.) a ganado!");
 
             Time.timeScale = 0;
             enabled = false;
@@ -42,14 +46,14 @@ public class Ball : MonoBehaviour {
 
         if (transform.position.x > GameManager.topRight.x - radio && dir.x > 0)
         {
-            Debug.Log("Jugador2 (Izq) ha ganado. ");
-            Time.timeScale = 0;
+            Debug.Log("Jugador2 (Izq.) a ganado!");
 
+            Time.timeScale = 0;
             enabled = false;
         }
 
     }
-
+    //OnTrigger de la Barra jugador.
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Jugador")
@@ -59,10 +63,14 @@ public class Ball : MonoBehaviour {
             if (isRight == true && dir.x > 0)
             {
                 dir.x = -dir.x;
+                //Contar Puntos
+                ScoreJugador.instance.GiveJugadorUnoPuntos();
             }
             if (isRight == false && dir.x < 0)
             {
                 dir.x = -dir.x;
+                //Contar Puntos
+                ScoreJugador.instance.GiveJugadorDosPuntos();
             }
         }
     }
