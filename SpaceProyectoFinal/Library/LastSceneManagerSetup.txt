@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SpacePong.unity
+- path: Assets/Scenes/SpaceEscencias.unity
   isLoaded: 1
   isActive: 1
