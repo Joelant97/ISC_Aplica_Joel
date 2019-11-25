@@ -13,6 +13,7 @@ public class scroll : MonoBehaviour {
 	void Update () {
         
         Vector2 offset = new Vector2(Time.time * speed, 0); //Vector de pos para el movimiento.
+        //GetComponent<SpriteRenderer>() = offset;
         GetComponent<MeshRenderer>().material.mainTextureOffset = offset;
 	}
 }

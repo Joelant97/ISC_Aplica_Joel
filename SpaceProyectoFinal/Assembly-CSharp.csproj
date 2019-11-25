@@ -55,7 +55,15 @@
      <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\Jugador.cs" />
      <Compile Include="Assets\ScoreJugador.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\JugadorScen.cs" />
+     <Compile Include="Assets\Scripts\ScoreEssences.cs" />
      <Compile Include="Assets\Scripts\scroll.cs" />
+     <Compile Include="Assets\Scripts\StarEscencias\GoldStar.cs" />
+     <Compile Include="Assets\Scripts\StarEscencias\GreenStar.cs" />
+     <Compile Include="Assets\Scripts\StarEscencias\PurpelStar.cs" />
+     <Compile Include="Assets\Scripts\StarEscencias\RedStar.cs" />
+     <Compile Include="Assets\Scripts\StarEscencias\Rock.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
